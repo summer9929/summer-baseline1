@@ -1,0 +1,16 @@
+__pycache__
+VOCdevkit
+checkpoints
+.vscode
+*.pyc
+.idea/
+__pycache__
+results
+checkpoints_bak
+cityscapes
+test_results
+.workbuddy/
+segdataodin/*.png
+segdataodin/**/*.png
+wkb/*.png
+wkb/**/*.png

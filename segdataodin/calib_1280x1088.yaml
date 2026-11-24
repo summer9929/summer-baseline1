@@ -1,0 +1,64 @@
+# Derived calibration; original error statistics are retained for provenance.
+cam_num: 1
+img_topic_0: /camera/rgb
+Tcl_0:
+- -0.02181
+- -0.99976
+- 0.00012
+- 0.05316
+- 0.00553
+- -0.00024
+- -0.99998
+- -0.00178
+- 0.99975
+- -0.02181
+- 0.00553
+- -0.01234
+- 0.0
+- 0.0
+- 0.0
+- 1.0
+cam_0:
+  cam_model: FishPoly
+  image_width: 1280
+  image_height: 1088
+  k2: -0.0032998281196087577
+  k3: 0.00033192461645844147
+  k4: -0.035991566775045274
+  k5: 0.03530126229586179
+  k6: -0.018951873059740637
+  k7: 0.002850468547070885
+  p1: 0.0
+  p2: 0.0
+  A11: 734.0187904961992
+  A12: 0.16823885864965976
+  A22: 733.8396873698905
+  u0: 656.1257953104363
+  v0: 553.6595263441989
+  rms_error_px: 0.10579
+  median_error_px: 0.077778
+  isFast: 0
+  numDiff: 3000
+  maxIncidentAngle: 120
+segmentation_preprocessing:
+  source_size_hw:
+  - 1296
+  - 1600
+  crop_box_ltrb:
+  - 160
+  - 104
+  - 1440
+  - 1192
+  crop_size_hw:
+  - 1088
+  - 1280
+  input_size_hw:
+  - 544
+  - 640
+  output_size_hw:
+  - 1088
+  - 1280
+  pixel_convention: 'integer centers; resize: (pixel + 0.5) * scale - 0.5'
+  error_statistics_note: rms_error_px and median_error_px are original calibration
+    statistics, not refitted
+  source_calibration: E:\Axiangmu\DeepLabV3Plus-Pytorch-master\segdataodin\calib.yaml
